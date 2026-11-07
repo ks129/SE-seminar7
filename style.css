@@ -8,6 +8,12 @@ p {
     text-align: center;
 }
 
+.subsection-title {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 1.5rem;
+    margin-bottom: 0;
+}
+
 .columns {
     display: flex;
     justify-content: space-between;
@@ -24,4 +30,12 @@ p {
 .main-image .attribution {
     font-size: 0.8rem;
     font-style: italic;
+}
+
+ul {
+    list-style: circle;
+}
+
+ul li {
+    font-family: 'JetBrains Mono', monospace;
 }
